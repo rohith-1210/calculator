@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen and (min-width:700px)" href="wide_stylesheet.css" type="text/css"/>
+	<link rel="stylesheet" media="screen and (max-width:699px)" href="small_stylesheet.css" type="text/css"/>
+	
+	<center>
+		<head>
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168767465-3"></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){dataLayer.push(arguments);}
+			  gtag('js', new Date());
+
+			  gtag('config', 'UA-168767465-3');
+			</script>
+			<script data-ad-client="ca-pub-5030774649756496" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+			<title>Calculator</title>
+			<h1>CALCULATOR</h1>
+			<meta name="description" content="Basic calculator">
+		</head>
+		
+		<body>
+			<!--display part-->
+			<div id="prev">0</div>
+			<div id="display">0</div>
+			
+			<!--buttons-->
+			<div  id="buttons">
+				<div id="first_row">
+					<div id="clear_all"><button id="clear_all_btn">CE</button></div>
+					<div id="history_btn_div"><button id="history_btn">HISTORY</button></div>
+					<div id="clear"><button id="clear_btn">C</button></div>
+					
+				</div>
+				
+				<div id="second_row">
+					<div id="open_bracket"><button id="open_bracket_btn" class="expression" value="(">(</button></div>
+					<div id="division"><button id="div_btn" class="expression" value="/">&divide;</button></div>
+					<div id="close_bracket"><button id="close_bracket_btn" class="expression" value=")">)</button></div>
+				</div>
+				
+				<div id="third_row">
+					<div id="addition"><button id="add_btn" class="expression" value="+">+</button></div>
+					<div id="subtraction"><button id="sub_btn" class="expression" value="-">-</button></div>
+					<div id="multiplication"><button id="mul_btn" class="expression" value="*">&lowast;</button></div>
+				</div>
+				
+				<div id="fourth_row">
+					<div id="seven"><button id="seven_btn" class="expression" value="7">7</button></div>
+					<div id="eight"><button id="eight_btn" class="expression" value="8">8</button></div>
+					<div id="nine"><button id="nine_btn" class="expression" value="9">9</button></div>
+				</div>
+
+				<div id="fifth_row">
+					<div id="four"><button id="four_btn" class="expression" value="4">4</button></div>
+					<div id="five"><button id="five_btn" class="expression" value="5">5</button></div>
+					<div id="six"><button id="six_btn" class="expression" value="6">6</button></div>
+				</div>
+
+				<div id="sixth_row">
+					<div id="one"><button id="one_btn" class="expression" value="1">1</button></div>
+					<div id="two"><button id="two_btn" class="expression" value="2">2</button></div>
+					<div id="three"><button id="three_btn" class="expression" value="3">3</button></div>
+				</div>
+				
+				<div id="seventh_row">
+					<div id="dot"><button id="dot_btn" class="expression" value=".">.</button></div>
+					<div id="zero"><button id="zero_btn" class="expression" value="0">0</button></div>
+					<div id="equal"><button id="equal_btn" class="expression">=</button></div>
+				</div>	
+			</div>
+			
+			<!--history  (side tab)-->
+			<div id="history">
+				<div id="clear_history"><a href=""><button id="clear_history_btn">Clear History</button></a></div>
+				<div id="close_history"><button id="close_history_btn">Close</button></div>
+				<div id="history_display"></div>
+			</div>
+		</body>
+		<footer>
+			<p>Created by: Rohith</p>
+		
+			<p>Contact information: <a href="mailto:rohithnisjes11@gmail.com">
+			Rohith S</a>.</p>
+		</footer>
+	</center>
+</html>

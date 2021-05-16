@@ -1,0 +1,112 @@
+html{
+	background-color:rgb(31, 25, 25);
+	padding:50px;
+	color:white;
+}
+
+#display{
+	font-size:40px;	
+	width:80%;
+}
+
+button{
+	background-color: black;
+	margin-top:2px;
+	margin-right:2px;
+	border:none;
+	height:40px;
+	width:20vw;
+	font-size:5vw;
+	color:white;
+	cursor:none;
+	display:inline-block;
+}
+
+button:focus{
+	outline:none;
+}
+
+
+#buttons{
+	margin-top:15px;
+}
+
+#clear, #clear_all, #division{
+	display:inline-block;
+}
+
+#addition, #subtraction, #multiplication{
+	display:inline-block;
+}
+
+#open_bracket, #history_btn_div, #close_bracket{
+	display:inline-block;
+}
+
+#eight, #nine, #seven{
+	display:inline-block;
+}
+#six, #five, #four{
+	display:inline-block;
+}
+
+#one, #two, #three{
+	display:inline-block;
+}
+
+#dot, #zero, #equal{
+	display:inline-block;
+}
+
+#close_history, #clear_history{
+	display:inline-block;
+}
+
+#close_history_btn{
+	text-align:right;
+	font-size: 20px;
+	border:none;
+	background: none;
+	color:white;
+}
+
+
+#clear_history_btn{
+	border:1px solid white;
+	height:30px;
+	width:100px;
+	text-align:center;
+	background:none;
+	font-size:10px;
+	color:white;
+}
+
+
+#history{
+	height: 100%;
+  	width: 0px; 
+  	position: fixed;
+  	z-index: 1; 
+  	top: 0; 
+  	left: 0;
+  	background-color: #111; 
+  	overflow-x: hidden;
+  	padding-top: 60px; 
+	transition: 0.5s; 
+	color:white;  
+}
+
+#history_display{
+	font-size:30px;
+	padding:10px;
+}
+#prev{
+	font-size:20px;	
+	width:80%;
+	opacity:0.7;
+}
+
+
+#history_btn{
+    font-size:4vw;
+}
